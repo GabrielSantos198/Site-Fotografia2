@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 
+main .nav-bar-pc{
+    display: none;
+}
 
 .hamburger{
     display: block;
@@ -126,6 +129,7 @@ header nav ul li a{
     color: #fff;
     font-size: 30px;
     font-family: Zilla Slab;
+    cursor: pointer;
 }
 
 
@@ -374,6 +378,7 @@ footer section article{
 footer section article a{
     font-size: 25px;
     color: #fff;
+    cursor: pointer;
 }
 
 footer p{
@@ -385,3 +390,387 @@ footer p{
     margin-right: auto;
     text-align: center;
 }
+
+
+/* Celular Deitado */
+
+@media (orientation: landscape){
+
+    header nav .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bar{
+      width: 70px;
+      height: 15px;
+      margin: 6px;
+    }
+
+}
+
+/* Fim */
+
+
+/* Computador */
+
+@media (min-width: 800px){
+
+    header nav .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    header nav .del{
+        display: none;
+    }
+
+
+   main .pontilhado{
+        border-bottom: 8px dotted #5A4438;
+        opacity: .4;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   footer .pontilhado{
+        border-bottom: 8px dotted #5A4438;
+        opacity: .4;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slidershow{
+      width: 90%;
+      overflow: hidden;
+    }
+
+    main .Segundo-Slider{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+
+    .bar{
+      width: 90px;
+      height: 20px;
+      border: 2px solid #fff;
+      margin: 6px;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+
+    main .Segundo-Slider article img{
+        width: 30%;
+    }
+
+
+    main .opcoes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    main .aviso{
+        margin-bottom: 40px;
+    }
+
+
+    main .opcoes #unico{
+        border-left: 8px dotted #5A4438;
+        border-right: 8px dotted #5A4438;
+    }
+
+
+    main .nav-bar-pc{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .nav-bar-pc a{
+        color: #5A4438;
+        font-size: 20px;
+        font-family: Zilla Slab;
+        border: 1px solid #5A4438;
+        margin-left: 26px;
+        padding-left: 50px;
+        opacity: .8;
+    cursor: pointer;
+        padding-right: 50px;
+    }
+
+
+    main .ft{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    /* Pagina contato */
+
+    main .contato{
+        width: 50% !important;
+    }
+
+    main form{
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    /* Fim */
+
+}
+
+/* Fim */
+
+
+
+/* Pagina Galeria */
+
+main .ft{
+    color: #5A4438;
+    font-weight: normal;
+    font-family: Zilla Slab;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main .op{
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+main .op .s{
+    margin-right: 20px;
+}
+
+main .op img{
+    width: 44%;
+    border: 6px solid #fff;
+}
+
+
+main .f{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+main .f article{
+    width: 44%;
+    display: flex;
+    justify-content: center;
+}
+
+
+main .f article a{
+    border: 2px solid #5A4438;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    cursor: pointer;
+
+    color: #5A4438;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    opacity: .7;
+}
+
+
+/* Fim */
+
+/* Pagina Criança */
+
+main .voltar{
+    text-align: center;
+    padding: 10px;
+    color: #5A4438;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    background-color: #D8C7BD;
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+}
+
+
+main .crianca-slider{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+main .crianca-slider article{
+    display: flex;
+    overflow: auto;
+}
+
+
+main  .crianca-slider article img{
+    width: 100%;
+}
+
+
+main .crianca-slider img:nth-child(2){
+    padding-left: 15px;
+}
+
+
+main .crianca-slider article img:nth-child(3){
+    padding-left: 15px;
+}
+
+
+main .crianca-slider article img:nth-child(4){
+    padding-left: 15px;
+}
+
+
+main .crianca-slider article img:nth-child(5){
+    padding-left: 15px;
+}
+
+main .aviso{
+    text-align: center;
+    color: #5A4438;
+    margin-top: 15px;
+}
+
+
+/* Fim */
+
+/* Pagina Biografia */
+main .bio{
+    width: 90vw;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .7;
+    margin-bottom: 50px;
+}
+
+
+main .bio p{
+    text-align: center;
+    color: #5A4438;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+/* Fim */
+
+
+/* Pagina Contato */
+
+main .contato{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+main .contato p{
+    color: #5A4438;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    opacity: .7;
+    font-family: Zilla Slab;
+}
+
+
+main #gmail{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+main form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+main form input{
+    width: 100%;
+    display: block;
+    padding: 13px;
+    margin-bottom: 10px;
+    background-color: #ECECDF;
+    border: 1px solid #5A4438;
+    font-size: 17px;
+}
+
+
+main form textarea{
+    width: 100%;
+    display: block;
+    padding: 13px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background-color: #ECECDF;
+    border: 1px solid #5A4438;
+}
+
+
+main form input::placeholder{
+    color: #000;
+    font-family: Zilla Slab;
+}
+
+
+main form .en{
+    background-color: #D8C7BD;
+    border: none;
+    font-family: Zilla Slab;
+    font-size: 19px;
+    color: #5A4438;
+}
+
+
+main .rodape-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+
+main .rodape-img img{
+    width: 130px;
+}
+
+/* Fim */
+
+

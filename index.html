@@ -8,28 +8,35 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <link rel="shortcut icon" href="Imagens/fotografia.png" type="image/x-icon">
         <title>Site Fotografia</title>
     </head>
     
     <body>
         <header>
             <nav>
-                <img src="Imagens/logo.webp" alt="Logo Principal do Site">
-                <input id="menu-hamburger" type="checkbox">
-                <label for="menu-hamburger">
-                    <section class="menu">
-                        <article>
-                            <span class="hamburger"></span>
-                        </article>
-                    </section>
-                </label>
+                <article class="img">
+                    <img src="Imagens/logo.webp" alt="Logo Principal do Site">
+                </article>
 
-                <ul>
-                    <li><a href="#">INÍCIO</a></li>
-                    <li><a href="#">GALERIA</a></li>
-                    <li><a href="#">SOBRE MIM</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                </ul>
+                <section class="del">
+                    <input id="menu-hamburger" type="checkbox">
+                    <label for="menu-hamburger">
+                        <section class="menu">
+                            <article>
+                                <span class="hamburger"></span>
+                            </article>
+                        </section>
+                    </label>
+
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a href="galeria.html">GALERIA</a></li>
+                        <li><a href="sobre.html">SOBRE MIM</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
+                    </ul>
+                </section>
+
             </nav>
         </header>
 
@@ -40,6 +47,13 @@
             <article class="pontilhado">
             </article>
 
+                <section class="nav-bar-pc">
+                    <a href="index.html">INÍCIO</a>
+                    <a href="galeria.html">GALERIA</a>
+                    <a href="sobre.html">SOBRE MIM</a>
+                    <a href="contato.html">CONTATO</a>
+                </section>
+
             <!-- Primeiro Slider -->
             <section class="slidershow middle">
 
@@ -49,11 +63,11 @@
                     <input type="radio" name="r" id="r3">
 
                     <article class="slide s1">
-                      <img src="Imagens/Primeiro-Slider-Imagem2.webp" alt="Imagem 2 do Primeiro Slider">
+                      <img src="Imagens/Primeiro-Slider-Imagem1.webp" alt="Imagem 1 do Primeiro Slider">
                     </article>
 
                     <article class="slide">
-                      <img src="Imagens/Primeiro-Slider-Imagem1.webp" alt="Imagem 1 do Primeiro Slider">
+                      <img src="Imagens/Primeiro-Slider-Imagem2.webp" alt="Imagem 2 do Primeiro Slider">
                     </article>
 
                     <article class="slide">
@@ -90,15 +104,15 @@
 
             <section class="opcoes">
                 <article>
-                    <a href="#"><img src="Imagens/catavento.png" alt="Catavento"></a>
+                    <a href="https://www.facebook.com/speedboy.speed.737"><img src="Imagens/catavento.png" alt="Catavento"></a>
                     <section>
                         <span>SIGA-NOS NO</span>
                         <h2>FACEBOOK</h2>
                     </section>
                 </article>
 
-                <article>
-                    <a href="#"><img src="Imagens/barco.png" alt="Barco"></a>
+                <article id="unico">
+                    <a href="contato.html"><img src="Imagens/barco.png" alt="Barco"></a>
                     <section>
                         <h2>CONTATE-NOS</h2>
                         <span>PARA AGENDAR SUA SESSÃO</span>
@@ -106,7 +120,7 @@
                 </article>
 
                 <article>
-                    <a href="#"><img src="Imagens/congumelo.png" alt="Congumelo"></a>
+                    <a href="galeria.html"><img src="Imagens/congumelo.png" alt="Congumelo"></a>
                     <section>
                         <h2>ÁLBUNS</h2>
                         <span>DE MATERNIDADE, BEBÊ E FAMÍLIA</span>
@@ -121,11 +135,11 @@
 
             <section class="icones">
                 <article>
-                    <a class="es" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="es" href="https://www.facebook.com/speedboy.speed.737"><i class="fab fa-facebook-f"></i></a>
                 </article>
 
                 <article>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://instagram.com/gabriel_santana8975?igshid=y99b98rnxjov"><i class="fab fa-instagram"></i></a>
                 </article>
             </section>
 
@@ -133,4 +147,3 @@
             <p>Orgulhosamente criado com HTML e CSS</p>
         </footer>
     </body>
-</html>
